@@ -12,5 +12,5 @@ data = "https://www.youtube.com/watch?v=xtIr8k4eC7o"
 
 qr.add_data(data)
 qr.make(fit = True)
-img = qr.make.image(fill="black",back_color="white")
+img = qr.make_image(fill="black",back_color="white")
 img.save("test.png")
